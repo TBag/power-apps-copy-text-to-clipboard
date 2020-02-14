@@ -118,5 +118,10 @@ https://www.npmjs.com/package/copy-to-clipboard
 
     [Model Driven](https://docs.microsoft.com/en-us/powerapps/developer/component-framework/add-custom-controls-to-a-field-or-entity)
 
+## Prebuilt Solution
+[CopyTextSolution.zip](https://github.com/TBag/power-apps-copy-text-to-clipboard/blob/master/CopyTextComponent/CopyTextSolution/bin/Debug/CopyTextSolution.zip)
+
+## Test Power App
+[Copy Text To Clipboard.msapp](https://github.com/TBag/power-apps-copy-text-to-clipboard/blob/master/CopyTextComponent/TestPowerApp/Copy%20Text%20To%20Clipboard.msapp)
 ## Author
 Todd Baginski @TBag
