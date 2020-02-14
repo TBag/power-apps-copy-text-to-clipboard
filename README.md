@@ -4,7 +4,7 @@ This component includes a textbox with a button next to it.  When you click the 
 ![Demonstration](/images/Demo.gif)
 
 ## Video
-Watch a video about the component [here]().
+Watch a deep dive video about the component [here](https://youtu.be/URQLR8ndsOE).
 
 ## Libraries
 This component uses the following library.
