@@ -10,6 +10,16 @@ Watch a deep dive video about the component [here](https://youtu.be/URQLR8ndsOE)
 This component uses the following library.
 https://www.npmjs.com/package/copy-to-clipboard
 
+## Prebuilt Solution
+Download this solution and import it into your Power Apps environment's Solution Gallery.  Then, you can add the component to your Power Apps.  See the video to learn how and look at the steps below.
+
+[CopyTextSolution.zip](https://github.com/TBag/power-apps-copy-text-to-clipboard/blob/master/CopyTextComponent/CopyTextSolution/bin/Debug/CopyTextSolution.zip)
+
+## Test Power App
+Download this Power App and import it into your Power Apps environment.  This is the same Power App I use to demonstrate the component in the video.
+
+[Copy Text To Clipboard.msapp](https://github.com/TBag/power-apps-copy-text-to-clipboard/blob/master/CopyTextComponent/TestPowerApp/Copy%20Text%20To%20Clipboard.msapp)
+
 ## How I made this component
 
 1. Install Power Apps CLI 
@@ -118,10 +128,5 @@ https://www.npmjs.com/package/copy-to-clipboard
 
     [Model Driven](https://docs.microsoft.com/en-us/powerapps/developer/component-framework/add-custom-controls-to-a-field-or-entity)
 
-## Prebuilt Solution
-[CopyTextSolution.zip](https://github.com/TBag/power-apps-copy-text-to-clipboard/blob/master/CopyTextComponent/CopyTextSolution/bin/Debug/CopyTextSolution.zip)
-
-## Test Power App
-[Copy Text To Clipboard.msapp](https://github.com/TBag/power-apps-copy-text-to-clipboard/blob/master/CopyTextComponent/TestPowerApp/Copy%20Text%20To%20Clipboard.msapp)
 ## Author
 Todd Baginski @TBag
