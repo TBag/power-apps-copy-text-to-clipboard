@@ -14,8 +14,6 @@ export class PCFCopyTextComponent implements ComponentFramework.StandardControl<
 
 	private textArea: HTMLTextAreaElement;
 
-	private textLabel: HTMLLabelElement;
-
 	// button element created as part of this control
 	private button: HTMLButtonElement;
 
