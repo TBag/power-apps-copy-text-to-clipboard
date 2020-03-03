@@ -9,7 +9,12 @@
 	EXPRESSED OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF  
 	MERCHANTABILITY AND/OR FITNESS FOR A PARTICULAR PURPOSE. 
  */
-.SampleNamespace\.PCFCopyTextComponent button.CopyText_Button_Style {
+.CanvizPCF\.PCFCopyTextComponent > div {
+	display: flex;
+	align-items: flex-start;
+}
+
+.CanvizPCF\.PCFCopyTextComponent .CopyText_Button_Style {
 	text-decoration: none;
     display: inline-block;
     font-size: 14px;
@@ -23,6 +28,11 @@
     text-align: center;
 }
 
-.SampleNamespace\.PCFCopyTextComponent button.CopyText_Input_Error_Style{
+.CanvizPCF\.PCFCopyTextComponent .CopyText_Input_Error_Style{
 	color: red;
+}
+
+.CanvizPCF\.PCFCopyTextComponent .CopyText_Input_Style{
+	box-sizing: border-box;
+	border: 1px solid rgb(0, 18, 107);
 }
