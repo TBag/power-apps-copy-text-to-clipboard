@@ -1,18 +1,15 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <manifest>
-  <control namespace="CanvizPCF" constructor="PCFCopyTextComponent" version="1.0.5" display-name-key="PCFCopyTextComponent" description-key="This component includes a textbox with a button next to it.  When you click the button it copies the contents of the textbox to the clipboard." control-type="standard">
+  <control namespace="CanvizLLCPCF" constructor="PCFCopyTextComponent" version="1.0.18" display-name-key="PCFCopyTextComponent" description-key="This component includes a textbox with a button next to it.  When you click the button it copies the contents of the textbox to the clipboard." control-type="standard">
     <!-- property node identifies a specific, configurable piece of data that the control expects from CDS -->
     <type-group name="strings">
       <type>SingleLine.Text</type>
       <type>Multiple</type>
     </type-group>
-    <property name="Value" display-name-key="Value_Display_Key" description-key="Value_Desc_Key" of-type-group="strings" usage="bound"/>
-    <property name="Mode" display-name-key="Mode_Display_Key" description-key="Mode_Desc_Key" of-type="Enum" usage="input" required="true" default-value="SingleLine">
-      <value name="SingleLine" display-name-key="Mode_SingleLine_Display_Key" description-key="Mode_SingleLine_Desc_Key">SingleLine</value>
-      <value name="MultiLine" display-name-key="Mode_MultiLine_Display_Key" description-key="Mode_MultiLine_Desc_Key">MultiLine</value>
-    </property>
+    <property name="Value" display-name-key="Value_Display_Key" description-key="Value_Desc_Key" of-type="SingleLine.Text" usage="bound" required="false" default-value=""/>
+    <property name="MultiLine" display-name-key="MultiLine_Display_Key" description-key="MultiLine_Desc_Key" of-type="TwoOptions" usage="input" required="true" default-value="false"/>
     <property name="ReadOnly" display-name-key="ReadOnly_Display_Key" description-key="ReadOnly_Desc_Key" of-type="TwoOptions" usage="input" required="true" default-value="false"/>
-    <property name="MaxLength" display-name-key="MaxLength_Display_Key" description-key="MaxLength_Desc_Key" of-type="Whole.None" usage="input"/>
+    <property name="MaxLength" display-name-key="MaxLength_Display_Key" description-key="MaxLength_Desc_Key" of-type="Whole.None" usage="input" required="false" default-value="255"/>
     <resources>
       <code path="index.ts" order="1"/>
       <css path="css/PCFCopyTextComponent.css" order="1" />

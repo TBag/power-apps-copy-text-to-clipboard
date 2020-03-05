@@ -44,7 +44,7 @@ Download this Power App and import it into your Power Apps environment.  This is
 
     Use this format: `pac pcf init --namespace <specify your namespace here> --name <put component name here> --template <component type>`
 
-    `pac pcf init --namespace CanvizPCF --name PCFCopyTextComponent --template field`
+    `pac pcf init --namespace CanvizLLCPCF --name PCFCopyTextComponent --template field`
 
 1. Install NPM packages 
 

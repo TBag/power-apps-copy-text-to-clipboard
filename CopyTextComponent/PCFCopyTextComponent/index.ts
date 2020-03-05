@@ -42,26 +42,24 @@ export class PCFCopyTextComponent implements ComponentFramework.StandardControl<
 
 		// get root container before child controls are appended
 		let rootContainer = this.getRootContainer(container);
-
+		
 		// Creating the textInput for the control and setting the relevant values.
-		switch (context.parameters.Mode.raw) {
-			case "SingleLine":
-				this.textInput = document.createElement("input");
-				this.textInput.setAttribute("type", "text");
-				this.textInput.maxLength = context.parameters.MaxLength.raw || 255;
-				this.textInput.addEventListener("blur", this.onInputBlur.bind(this));
-				this.textInput.addEventListener("change", this.onInputBlur.bind(this));
-				this.textInput.classList.add("CopyText_Input_Style");
-				this.textInput.readOnly = context.parameters.ReadOnly.raw;
-				break;
-			case "MultiLine":
-				this.textArea = document.createElement("textarea");
-				this.textArea.maxLength = context.parameters.MaxLength.raw || 500;
-				this.textArea.addEventListener("blur", this.onInputBlur.bind(this));
-				this.textArea.addEventListener("change", this.onInputBlur.bind(this));
-				this.textArea.classList.add("CopyText_Input_Style");
-				this.textArea.readOnly = context.parameters.ReadOnly.raw;
-				break;
+		if (context.parameters.MultiLine.raw) {
+			this.textArea = document.createElement("textarea");
+			this.textArea.maxLength = context.parameters.MaxLength.raw || 500;
+			this.textArea.addEventListener("blur", this.onInputBlur.bind(this));
+			this.textArea.addEventListener("change", this.onInputBlur.bind(this));
+			this.textArea.classList.add("CopyText_Input_Style");
+			this.textArea.readOnly = context.parameters.ReadOnly.raw;
+		}
+		else {
+			this.textInput = document.createElement("input");
+			this.textInput.setAttribute("type", "text");
+			this.textInput.maxLength = context.parameters.MaxLength.raw || 255;
+			this.textInput.addEventListener("blur", this.onInputBlur.bind(this));
+			this.textInput.addEventListener("change", this.onInputBlur.bind(this));
+			this.textInput.classList.add("CopyText_Input_Style");
+			this.textInput.readOnly = context.parameters.ReadOnly.raw;
 		}
 
 		this.button = document.createElement("button");

@@ -137,13 +137,13 @@
     <value>Value</value>
     <comment>Display text for Value description</comment>
   </data>
-  <data name="Mode_Display_Key" xml:space="preserve">
-    <value>Mode</value>
-    <comment>Display text for Mode</comment>
+  <data name="MultiLine_Display_Key" xml:space="preserve">
+    <value>MultiLine</value>
+    <comment>Display text for MultiLine</comment>
   </data>
-  <data name="Mode_Desc_Key" xml:space="preserve">
-    <value>Mode</value>
-    <comment>Display text for Mode description</comment>
+  <data name="MultiLine_Desc_Key" xml:space="preserve">
+    <value>MultiLine</value>
+    <comment>Display text for MultiLine description</comment>
   </data>
   <data name="MaxLength_Display_Key" xml:space="preserve">
     <value>MaxLength</value>
@@ -152,22 +152,6 @@
   <data name="MaxLength_Desc_Key" xml:space="preserve">
     <value>MaxLength</value>
     <comment>Display text for MaxLength description</comment>
-  </data>
-  <data name="Mode_SingleLine_Display_Key" xml:space="preserve">
-    <value>SingleLine</value>
-    <comment>Display text for SingleLine</comment>
-  </data>
-  <data name="Mode_SingleLine_Desc_Key" xml:space="preserve">
-    <value>SingleLine</value>
-    <comment>Display text for SingleLine description</comment>
-  </data>
-  <data name="Mode_MultiLine_Display_Key" xml:space="preserve">
-    <value>MultiLine</value>
-    <comment>Display text for MultiLine</comment>
-  </data>
-  <data name="Mode_MultiLine_Desc_Key" xml:space="preserve">
-    <value>MultiLine</value>
-    <comment>Display text for MultiLine description</comment>
   </data>
   <data name="ReadOnly_Display_Key" xml:space="preserve">
     <value>ReadOnly</value>

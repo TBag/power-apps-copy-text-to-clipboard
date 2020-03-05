@@ -1,209 +1,57 @@
-2020-02-14 11:50:44.628 - Info	
-Packing D:\pcf\samples\CopyTextComponent\CopyTextSolution\obj\Debug\ to bin\Debug\CopyTextSolution.zip
-
-2020-02-14 11:50:44.642 - Info	Processing Component: Entities
-2020-02-14 11:50:44.645 - Info	Processing Component: Roles
-2020-02-14 11:50:44.648 - Info	Processing Component: Workflows
-2020-02-14 11:50:44.648 - Info	Processing Component: FieldSecurityProfiles
-2020-02-14 11:50:44.648 - Info	Processing Component: Templates
-2020-02-14 11:50:44.649 - Info	Processing Component: EntityMaps
-2020-02-14 11:50:44.649 - Info	Processing Component: EntityRelationships
-2020-02-14 11:50:44.655 - Info	Processing Component: OrganizationSettings
-2020-02-14 11:50:44.656 - Info	Processing Component: optionsets
-2020-02-14 11:50:44.656 - Info	Processing Component: CustomControls
-2020-02-14 11:50:44.666 - Info	 - CanvizPCF.PCFCopyTextComponent
-2020-02-14 11:50:44.684 - Info	Processing Component: SolutionPluginAssemblies
-2020-02-14 11:50:44.685 - Info	Processing Component: EntityDataProviders
-2020-02-14 11:50:44.699 - Info	
-Unmanaged Pack complete.
-
-2020-03-03 16:16:45.733 - Info	
+2020-03-05 23:08:08.698 - Info	
 Packing E:\GitCVZ\power-apps-copy-text-to-clipboard\CopyTextComponent\CopyTextSolution\obj\Debug\ to bin\Debug\CopyTextSolution.zip
 
-2020-03-03 16:16:45.746 - Info	Processing Component: Entities
-2020-03-03 16:16:45.750 - Info	Processing Component: Roles
-2020-03-03 16:16:45.755 - Info	Processing Component: Workflows
-2020-03-03 16:16:45.755 - Info	Processing Component: FieldSecurityProfiles
-2020-03-03 16:16:45.756 - Info	Processing Component: Templates
-2020-03-03 16:16:45.757 - Info	Processing Component: EntityMaps
-2020-03-03 16:16:45.757 - Info	Processing Component: EntityRelationships
-2020-03-03 16:16:45.762 - Info	Processing Component: OrganizationSettings
-2020-03-03 16:16:45.763 - Info	Processing Component: optionsets
-2020-03-03 16:16:45.764 - Info	Processing Component: CustomControls
-2020-03-03 16:16:45.776 - Info	 - CanvizPCF.PCFCopyTextComponent
-2020-03-03 16:16:45.802 - Info	Processing Component: SolutionPluginAssemblies
-2020-03-03 16:16:45.803 - Info	Processing Component: EntityDataProviders
-2020-03-03 16:16:45.855 - Info	
-Unmanaged Pack complete.
-
-2020-03-03 16:28:49.323 - Info	
-Packing E:\GitCVZ\power-apps-copy-text-to-clipboard\CopyTextComponent\CopyTextSolution\obj\Debug\ to bin\Debug\CopyTextSolution.zip
-
-2020-03-03 16:28:49.339 - Info	Processing Component: Entities
-2020-03-03 16:28:49.346 - Info	Processing Component: Roles
-2020-03-03 16:28:49.353 - Info	Processing Component: Workflows
-2020-03-03 16:28:49.353 - Info	Processing Component: FieldSecurityProfiles
-2020-03-03 16:28:49.354 - Info	Processing Component: Templates
-2020-03-03 16:28:49.355 - Info	Processing Component: EntityMaps
-2020-03-03 16:28:49.355 - Info	Processing Component: EntityRelationships
-2020-03-03 16:28:49.365 - Info	Processing Component: OrganizationSettings
-2020-03-03 16:28:49.366 - Info	Processing Component: optionsets
-2020-03-03 16:28:49.368 - Info	Processing Component: CustomControls
-2020-03-03 16:28:49.387 - Info	 - CanvizPCF.PCFCopyTextComponent
-2020-03-03 16:28:49.412 - Info	Processing Component: SolutionPluginAssemblies
-2020-03-03 16:28:49.414 - Info	Processing Component: EntityDataProviders
-2020-03-03 16:28:49.454 - Info	
+2020-03-05 23:08:08.727 - Info	Processing Component: Entities
+2020-03-05 23:08:08.740 - Info	Processing Component: Roles
+2020-03-05 23:08:08.752 - Info	Processing Component: Workflows
+2020-03-05 23:08:08.753 - Info	Processing Component: FieldSecurityProfiles
+2020-03-05 23:08:08.755 - Info	Processing Component: Templates
+2020-03-05 23:08:08.757 - Info	Processing Component: EntityMaps
+2020-03-05 23:08:08.758 - Info	Processing Component: EntityRelationships
+2020-03-05 23:08:08.769 - Info	Processing Component: OrganizationSettings
+2020-03-05 23:08:08.770 - Info	Processing Component: optionsets
+2020-03-05 23:08:08.771 - Info	Processing Component: CustomControls
+2020-03-05 23:08:08.796 - Info	 - CanvizLLCPCF.PCFCopyTextComponent
+2020-03-05 23:08:09.318 - Info	Processing Component: SolutionPluginAssemblies
+2020-03-05 23:08:09.320 - Info	Processing Component: EntityDataProviders
+2020-03-05 23:08:09.397 - Info	
 Managed Pack complete.
 
-2020-03-03 16:35:24.594 - Info	
+2020-03-05 23:15:46.921 - Info	
 Packing E:\GitCVZ\power-apps-copy-text-to-clipboard\CopyTextComponent\CopyTextSolution\obj\Debug\ to bin\Debug\CopyTextSolution.zip
 
-2020-03-03 16:35:24.608 - Info	Processing Component: Entities
-2020-03-03 16:35:24.612 - Info	Processing Component: Roles
-2020-03-03 16:35:24.616 - Info	Processing Component: Workflows
-2020-03-03 16:35:24.616 - Info	Processing Component: FieldSecurityProfiles
-2020-03-03 16:35:24.616 - Info	Processing Component: Templates
-2020-03-03 16:35:24.617 - Info	Processing Component: EntityMaps
-2020-03-03 16:35:24.618 - Info	Processing Component: EntityRelationships
-2020-03-03 16:35:24.624 - Info	Processing Component: OrganizationSettings
-2020-03-03 16:35:24.625 - Info	Processing Component: optionsets
-2020-03-03 16:35:24.625 - Info	Processing Component: CustomControls
-2020-03-03 16:35:24.636 - Info	 - CanvizPCF.PCFCopyTextComponent
-2020-03-03 16:35:24.653 - Info	Processing Component: SolutionPluginAssemblies
-2020-03-03 16:35:24.655 - Info	Processing Component: EntityDataProviders
-2020-03-03 16:35:24.695 - Info	
+2020-03-05 23:15:46.941 - Info	Processing Component: Entities
+2020-03-05 23:15:46.947 - Info	Processing Component: Roles
+2020-03-05 23:15:46.954 - Info	Processing Component: Workflows
+2020-03-05 23:15:46.954 - Info	Processing Component: FieldSecurityProfiles
+2020-03-05 23:15:46.954 - Info	Processing Component: Templates
+2020-03-05 23:15:46.956 - Info	Processing Component: EntityMaps
+2020-03-05 23:15:46.957 - Info	Processing Component: EntityRelationships
+2020-03-05 23:15:46.968 - Info	Processing Component: OrganizationSettings
+2020-03-05 23:15:46.969 - Info	Processing Component: optionsets
+2020-03-05 23:15:46.969 - Info	Processing Component: CustomControls
+2020-03-05 23:15:46.987 - Info	 - CanvizLLCPCF.PCFCopyTextComponent
+2020-03-05 23:15:47.565 - Info	Processing Component: SolutionPluginAssemblies
+2020-03-05 23:15:47.568 - Info	Processing Component: EntityDataProviders
+2020-03-05 23:15:47.666 - Info	
 Managed Pack complete.
 
-2020-03-03 17:22:45.540 - Info	
+2020-03-05 23:34:22.351 - Info	
 Packing E:\GitCVZ\power-apps-copy-text-to-clipboard\CopyTextComponent\CopyTextSolution\obj\Debug\ to bin\Debug\CopyTextSolution.zip
 
-2020-03-03 17:22:45.554 - Info	Processing Component: Entities
-2020-03-03 17:22:45.558 - Info	Processing Component: Roles
-2020-03-03 17:22:45.562 - Info	Processing Component: Workflows
-2020-03-03 17:22:45.563 - Info	Processing Component: FieldSecurityProfiles
-2020-03-03 17:22:45.563 - Info	Processing Component: Templates
-2020-03-03 17:22:45.564 - Info	Processing Component: EntityMaps
-2020-03-03 17:22:45.564 - Info	Processing Component: EntityRelationships
-2020-03-03 17:22:45.573 - Info	Processing Component: OrganizationSettings
-2020-03-03 17:22:45.574 - Info	Processing Component: optionsets
-2020-03-03 17:22:45.574 - Info	Processing Component: CustomControls
-2020-03-03 17:22:45.592 - Info	 - CanvizPCF.PCFCopyTextComponent
-2020-03-03 17:22:45.608 - Info	Processing Component: SolutionPluginAssemblies
-2020-03-03 17:22:45.609 - Info	Processing Component: EntityDataProviders
-2020-03-03 17:22:45.649 - Info	
-Managed Pack complete.
-
-2020-03-03 17:37:00.936 - Info	
-Packing E:\GitCVZ\power-apps-copy-text-to-clipboard\CopyTextComponent\CopyTextSolution\obj\Debug\ to bin\Debug\CopyTextSolution.zip
-
-2020-03-03 17:37:00.955 - Info	Processing Component: Entities
-2020-03-03 17:37:00.960 - Info	Processing Component: Roles
-2020-03-03 17:37:00.966 - Info	Processing Component: Workflows
-2020-03-03 17:37:00.967 - Info	Processing Component: FieldSecurityProfiles
-2020-03-03 17:37:00.968 - Info	Processing Component: Templates
-2020-03-03 17:37:00.970 - Info	Processing Component: EntityMaps
-2020-03-03 17:37:00.970 - Info	Processing Component: EntityRelationships
-2020-03-03 17:37:00.989 - Info	Processing Component: OrganizationSettings
-2020-03-03 17:37:00.990 - Info	Processing Component: optionsets
-2020-03-03 17:37:00.991 - Info	Processing Component: CustomControls
-2020-03-03 17:37:01.007 - Info	 - CanvizPCF.PCFCopyTextComponent
-2020-03-03 17:37:01.034 - Info	Processing Component: SolutionPluginAssemblies
-2020-03-03 17:37:01.036 - Info	Processing Component: EntityDataProviders
-2020-03-03 17:37:01.078 - Info	
-Managed Pack complete.
-
-2020-03-03 20:08:42.309 - Info	
-Packing E:\GitCVZ\power-apps-copy-text-to-clipboard\CopyTextComponent\CopyTextSolution\obj\Debug\ to bin\Debug\CopyTextSolution.zip
-
-2020-03-03 20:08:42.324 - Info	Processing Component: Entities
-2020-03-03 20:08:42.328 - Info	Processing Component: Roles
-2020-03-03 20:08:42.332 - Info	Processing Component: Workflows
-2020-03-03 20:08:42.333 - Info	Processing Component: FieldSecurityProfiles
-2020-03-03 20:08:42.333 - Info	Processing Component: Templates
-2020-03-03 20:08:42.335 - Info	Processing Component: EntityMaps
-2020-03-03 20:08:42.335 - Info	Processing Component: EntityRelationships
-2020-03-03 20:08:42.341 - Info	Processing Component: OrganizationSettings
-2020-03-03 20:08:42.342 - Info	Processing Component: optionsets
-2020-03-03 20:08:42.342 - Info	Processing Component: CustomControls
-2020-03-03 20:08:42.355 - Info	 - CanvizPCF.PCFCopyTextComponent
-2020-03-03 20:08:42.373 - Info	Processing Component: SolutionPluginAssemblies
-2020-03-03 20:08:42.376 - Info	Processing Component: EntityDataProviders
-2020-03-03 20:08:42.414 - Info	
-Managed Pack complete.
-
-2020-03-03 20:12:44.548 - Info	
-Packing E:\GitCVZ\power-apps-copy-text-to-clipboard\CopyTextComponent\CopyTextSolution\obj\Debug\ to bin\Debug\CopyTextSolution.zip
-
-2020-03-03 20:12:44.565 - Info	Processing Component: Entities
-2020-03-03 20:12:44.569 - Info	Processing Component: Roles
-2020-03-03 20:12:44.573 - Info	Processing Component: Workflows
-2020-03-03 20:12:44.573 - Info	Processing Component: FieldSecurityProfiles
-2020-03-03 20:12:44.574 - Info	Processing Component: Templates
-2020-03-03 20:12:44.575 - Info	Processing Component: EntityMaps
-2020-03-03 20:12:44.575 - Info	Processing Component: EntityRelationships
-2020-03-03 20:12:44.581 - Info	Processing Component: OrganizationSettings
-2020-03-03 20:12:44.582 - Info	Processing Component: optionsets
-2020-03-03 20:12:44.582 - Info	Processing Component: CustomControls
-2020-03-03 20:12:44.596 - Info	 - CanvizPCF.PCFCopyTextComponent
-2020-03-03 20:12:44.609 - Info	Processing Component: SolutionPluginAssemblies
-2020-03-03 20:12:44.611 - Info	Processing Component: EntityDataProviders
-2020-03-03 20:12:44.641 - Info	
-Managed Pack complete.
-
-2020-03-03 21:13:56.509 - Info	
-Packing E:\GitCVZ\power-apps-copy-text-to-clipboard\CopyTextComponent\CopyTextSolution\obj\Debug\ to bin\Debug\CopyTextSolution.zip
-
-2020-03-03 21:13:56.525 - Info	Processing Component: Entities
-2020-03-03 21:13:56.528 - Info	Processing Component: Roles
-2020-03-03 21:13:56.534 - Info	Processing Component: Workflows
-2020-03-03 21:13:56.535 - Info	Processing Component: FieldSecurityProfiles
-2020-03-03 21:13:56.535 - Info	Processing Component: Templates
-2020-03-03 21:13:56.536 - Info	Processing Component: EntityMaps
-2020-03-03 21:13:56.537 - Info	Processing Component: EntityRelationships
-2020-03-03 21:13:56.542 - Info	Processing Component: OrganizationSettings
-2020-03-03 21:13:56.543 - Info	Processing Component: optionsets
-2020-03-03 21:13:56.543 - Info	Processing Component: CustomControls
-2020-03-03 21:13:56.560 - Info	 - CanvizPCF.PCFCopyTextComponent
-2020-03-03 21:13:56.576 - Info	Processing Component: SolutionPluginAssemblies
-2020-03-03 21:13:56.577 - Info	Processing Component: EntityDataProviders
-2020-03-03 21:13:56.610 - Info	
-Managed Pack complete.
-
-2020-03-03 21:15:29.159 - Info	
-Packing E:\GitCVZ\power-apps-copy-text-to-clipboard\CopyTextComponent\CopyTextSolution\obj\Debug\ to bin\Debug\CopyTextSolution.zip
-
-2020-03-03 21:15:29.191 - Info	Processing Component: Entities
-2020-03-03 21:15:29.195 - Info	Processing Component: Roles
-2020-03-03 21:15:29.199 - Info	Processing Component: Workflows
-2020-03-03 21:15:29.199 - Info	Processing Component: FieldSecurityProfiles
-2020-03-03 21:15:29.199 - Info	Processing Component: Templates
-2020-03-03 21:15:29.201 - Info	Processing Component: EntityMaps
-2020-03-03 21:15:29.201 - Info	Processing Component: EntityRelationships
-2020-03-03 21:15:29.220 - Info	Processing Component: OrganizationSettings
-2020-03-03 21:15:29.221 - Info	Processing Component: optionsets
-2020-03-03 21:15:29.222 - Info	Processing Component: CustomControls
-2020-03-03 21:15:29.233 - Info	 - CanvizPCF.PCFCopyTextComponent
-2020-03-03 21:15:29.245 - Info	Processing Component: SolutionPluginAssemblies
-2020-03-03 21:15:29.246 - Info	Processing Component: EntityDataProviders
-2020-03-03 21:15:29.274 - Info	
-Managed Pack complete.
-
-2020-03-03 23:03:55.931 - Info	
-Packing E:\GitCVZ\power-apps-copy-text-to-clipboard\CopyTextComponent\CopyTextSolution\obj\Debug\ to bin\Debug\CopyTextSolution.zip
-
-2020-03-03 23:03:55.945 - Info	Processing Component: Entities
-2020-03-03 23:03:55.949 - Info	Processing Component: Roles
-2020-03-03 23:03:55.953 - Info	Processing Component: Workflows
-2020-03-03 23:03:55.954 - Info	Processing Component: FieldSecurityProfiles
-2020-03-03 23:03:55.954 - Info	Processing Component: Templates
-2020-03-03 23:03:55.955 - Info	Processing Component: EntityMaps
-2020-03-03 23:03:55.955 - Info	Processing Component: EntityRelationships
-2020-03-03 23:03:55.964 - Info	Processing Component: OrganizationSettings
-2020-03-03 23:03:55.965 - Info	Processing Component: optionsets
-2020-03-03 23:03:55.966 - Info	Processing Component: CustomControls
-2020-03-03 23:03:55.981 - Info	 - CanvizPCF.PCFCopyTextComponent
-2020-03-03 23:03:55.997 - Info	Processing Component: SolutionPluginAssemblies
-2020-03-03 23:03:55.998 - Info	Processing Component: EntityDataProviders
-2020-03-03 23:03:56.024 - Info	
+2020-03-05 23:34:22.367 - Info	Processing Component: Entities
+2020-03-05 23:34:22.372 - Info	Processing Component: Roles
+2020-03-05 23:34:22.376 - Info	Processing Component: Workflows
+2020-03-05 23:34:22.376 - Info	Processing Component: FieldSecurityProfiles
+2020-03-05 23:34:22.377 - Info	Processing Component: Templates
+2020-03-05 23:34:22.378 - Info	Processing Component: EntityMaps
+2020-03-05 23:34:22.379 - Info	Processing Component: EntityRelationships
+2020-03-05 23:34:22.386 - Info	Processing Component: OrganizationSettings
+2020-03-05 23:34:22.386 - Info	Processing Component: optionsets
+2020-03-05 23:34:22.387 - Info	Processing Component: CustomControls
+2020-03-05 23:34:22.402 - Info	 - CanvizLLCPCF.PCFCopyTextComponent
+2020-03-05 23:34:22.920 - Info	Processing Component: SolutionPluginAssemblies
+2020-03-05 23:34:22.922 - Info	Processing Component: EntityDataProviders
+2020-03-05 23:34:22.955 - Info	
 Managed Pack complete.
 
