@@ -129,12 +129,37 @@
     <value>PCFCopyTextComponent</value>
     <comment>Display text for PCFCopyTextComponent description</comment>
   </data>
-  <data name="value_Display_Key" xml:space="preserve">
+  <data name="Value_Display_Key" xml:space="preserve">
     <value>Value</value>
     <comment>Display text for Value</comment>
   </data>
-  <data name="value_Desc_Key" xml:space="preserve">
+  <data name="Value_Desc_Key" xml:space="preserve">
     <value>Value</value>
     <comment>Display text for Value description</comment>
   </data>
+  <data name="MultiLine_Display_Key" xml:space="preserve">
+    <value>MultiLine</value>
+    <comment>Display text for MultiLine</comment>
+  </data>
+  <data name="MultiLine_Desc_Key" xml:space="preserve">
+    <value>MultiLine</value>
+    <comment>Display text for MultiLine description</comment>
+  </data>
+  <data name="MaxLength_Display_Key" xml:space="preserve">
+    <value>MaxLength</value>
+    <comment>Display text for MaxLength</comment>
+  </data>
+  <data name="MaxLength_Desc_Key" xml:space="preserve">
+    <value>MaxLength</value>
+    <comment>Display text for MaxLength description</comment>
+  </data>
+  <data name="ReadOnly_Display_Key" xml:space="preserve">
+    <value>ReadOnly</value>
+    <comment>Display text for ReadOnly</comment>
+  </data>
+  <data name="ReadOnly_Desc_Key" xml:space="preserve">
+    <value>ReadOnly</value>
+    <comment>Display text for ReadOnly description</comment>
+  </data>
+
 </root>
