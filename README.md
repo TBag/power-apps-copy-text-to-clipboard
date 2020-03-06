@@ -147,6 +147,8 @@ If the upgrade isn't smoothly or the **Update code components** dialog never sho
 1. Package and import it again.
 1. Add the component to your PowerApps.
 
+> **Notice:** It's recommended to finalize the component info (name, namespace, constructor), and solution type (unmanaged, managed) before adding the PCF component to your PowerApps for the first time, otherwise, it might cause risks in your future upgrades.
+
 
 ## Author
 Todd Baginski @TBag
