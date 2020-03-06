@@ -21,6 +21,8 @@ export class PCFCopyTextComponent implements ComponentFramework.StandardControl<
 	// This element contains all elements of our custom control example
 	private _container: HTMLDivElement;
 
+	private _rootContainer: HTMLDivElement;
+
 	/**
 	 * Empty constructor.
 	 */
@@ -41,8 +43,11 @@ export class PCFCopyTextComponent implements ComponentFramework.StandardControl<
 		//copy('This is awesome text copied on ' + Date.now.toString());
 
 		// get root container before child controls are appended
-		let rootContainer = this.getRootContainer(container);
+		this._rootContainer = this.getRootContainer(container)!;
 		
+		// Adding the textInput and button created to the container DIV.
+		this._container = document.createElement("div");
+
 		// Creating the textInput for the control and setting the relevant values.
 		if (context.parameters.MultiLine.raw) {
 			this.textArea = document.createElement("textarea");
@@ -51,6 +56,8 @@ export class PCFCopyTextComponent implements ComponentFramework.StandardControl<
 			this.textArea.addEventListener("change", this.onInputBlur.bind(this));
 			this.textArea.classList.add("CopyText_Input_Style");
 			this.textArea.readOnly = context.parameters.ReadOnly.raw;
+
+			this._container.appendChild(this.textArea);
 		}
 		else {
 			this.textInput = document.createElement("input");
@@ -60,6 +67,8 @@ export class PCFCopyTextComponent implements ComponentFramework.StandardControl<
 			this.textInput.addEventListener("change", this.onInputBlur.bind(this));
 			this.textInput.classList.add("CopyText_Input_Style");
 			this.textInput.readOnly = context.parameters.ReadOnly.raw;
+
+			this._container.appendChild(this.textInput);
 		}
 
 		this.button = document.createElement("button");
@@ -71,31 +80,8 @@ export class PCFCopyTextComponent implements ComponentFramework.StandardControl<
 		this._notifyOutputChanged = notifyOutputChanged;
 		this.button.addEventListener("click", this.onButtonClick.bind(this));
 
-		// Adding the textInput and button created to the container DIV.
-		this._container = document.createElement("div");
-		if (this.textArea) {
-			this._container.appendChild(this.textArea);
-		}
-		else {
-			this._container.appendChild(this.textInput);
-		}
 		this._container.appendChild(this.button);
 		container.appendChild(this._container);
-
-		// auto-adjust size for textInput
-		if (rootContainer) {
-			let width = rootContainer.clientWidth - this.button.offsetWidth;
-			let height = rootContainer.clientHeight;
-
-			if (this.textArea) {
-				this.textArea.style.width = width + "px";
-				this.textArea.style.height = height + "px";
-			}
-			else {
-				this.textInput.style.width = width + "px";
-				this.textInput.style.height = height + "px";
-			}
-		}
 	}
 
 	/**
@@ -159,6 +145,15 @@ export class PCFCopyTextComponent implements ComponentFramework.StandardControl<
 		}
 		else {
 			classList.remove("CopyText_Input_Error_Style");
+		}
+
+		// refresh input size
+		let height = this._rootContainer.clientHeight;
+		if (this.textArea) {
+			this.textArea.style.height = height + "px";
+		}
+		else {
+			this.textInput.style.height = height + "px";
 		}
 	}
 

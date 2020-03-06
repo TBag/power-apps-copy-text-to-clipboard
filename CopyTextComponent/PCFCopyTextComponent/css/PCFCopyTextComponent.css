@@ -35,4 +35,6 @@
 .CanvizLLCPCF\.PCFCopyTextComponent .CopyText_Input_Style{
 	box-sizing: border-box;
 	border: 1px solid rgb(0, 18, 107);
+	width: 100%;
+	min-width: 50px;
 }
