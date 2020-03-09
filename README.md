@@ -154,3 +154,4 @@ If the upgrade doesn't go smoothly or you never see the **Update code components
 ## Authors
 - Todd Baginski @TBag
 - Alex Chen @alexchx
+- Cathy Cheng @cathyclx
