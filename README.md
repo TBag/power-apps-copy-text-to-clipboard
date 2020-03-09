@@ -139,6 +139,7 @@ Follow the steps below to upgrade the PCF component in normal process.
 
 If the upgrade isn't smoothly or the **Update code components** dialog never show, you could consider the following workaround.
 1. Remove all component references from the PowerApps.
+1. Go to your solution and remove the component from your environment manually if that was deployed by an unmanaged solution.
 1. Uninstall the solution from your environment.
 1. Export the PowerApps and re-import to overwrite the current version.
 1. Reopen the PowerApps, then save and publish.
