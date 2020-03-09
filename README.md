@@ -130,26 +130,27 @@ Download this Power App and import it into your Power Apps environment.  This is
 
 ## Upgrade
 
-Follow the steps below to upgrade the PCF component in normal process.
+Follow the steps below to upgrade the PCF component.
 
-1. Keep the old version in the PowerApps and in your environment and close the PowerApps designer.
-1. Increase the version numbers in both the files [ControlManifest.Input.xml](https://github.com/TBag/power-apps-copy-text-to-clipboard/blob/master/CopyTextComponent/PCFCopyTextComponent/ControlManifest.Input.xml) and [Solution.xml](https://github.com/TBag/power-apps-copy-text-to-clipboard/blob/master/CopyTextComponent/CopyTextSolution/Other/Solution.xml).
-1. Package the new version and import to Power platform to overwrite previous version.
-1. Reopen the PowerApps designer, and click **Update** button in the **Update code components** dialog.
+1. Keep the old version in the Power App and in your environment and close the Power Apps designer.
+1. Increase the version numbers in both the [ControlManifest.Input.xml](https://github.com/TBag/power-apps-copy-text-to-clipboard/blob/master/CopyTextComponent/PCFCopyTextComponent/ControlManifest.Input.xml) and [Solution.xml](https://github.com/TBag/power-apps-copy-text-to-clipboard/blob/master/CopyTextComponent/CopyTextSolution/Other/Solution.xml) files.
+1. Package the new version then import it to your environment and overwrite the previous version.
+1. Re-open the Power App in the designer, and click the **Update** button in the **Update code components** dialog.
 
-If the upgrade isn't smoothly or the **Update code components** dialog never show, you could consider the following workaround.
-1. Remove all component references from the PowerApps.
+If the upgrade doesn't go smoothly or you never see the **Update code components** dialog you will not see the changes you made in your upgraded component appear.  If this happens, consider the following workaround to force the Power App to pick up a new version of the component.
+
+1. Remove all component references from the Power App.
 1. Go to your solution and remove the component from your environment manually if that was deployed by an unmanaged solution.
 1. Uninstall the solution from your environment.
-1. Export the PowerApps and re-import to overwrite the current version.
-1. Reopen the PowerApps, then save and publish.
-1. Change the **namespace** and **constructor** in the file [ControlManifest.Input.xml](https://github.com/TBag/power-apps-copy-text-to-clipboard/blob/master/CopyTextComponent/PCFCopyTextComponent/ControlManifest.Input.xml) to a different one, so that the PowerApps could locate the new resources in different path.
-1. Increase the version numbers in both the files [ControlManifest.Input.xml](https://github.com/TBag/power-apps-copy-text-to-clipboard/blob/master/CopyTextComponent/PCFCopyTextComponent/ControlManifest.Input.xml) and [Solution.xml](https://github.com/TBag/power-apps-copy-text-to-clipboard/blob/master/CopyTextComponent/CopyTextSolution/Other/Solution.xml).
-1. Package and import it again.
-1. Add the component to your PowerApps.
+1. Export the Power App and re-import it to overwrite the current version.
+1. Re-open the Power App, then save and publish it.
+1. Change the **namespace** and **constructor** in the file [ControlManifest.Input.xml](https://github.com/TBag/power-apps-copy-text-to-clipboard/blob/master/CopyTextComponent/PCFCopyTextComponent/ControlManifest.Input.xml) to a different one.  This will cause the Power App to locate the new resources in a different path and load them.
+1. Increase the version numbers in both the [ControlManifest.Input.xml](https://github.com/TBag/power-apps-copy-text-to-clipboard/blob/master/CopyTextComponent/PCFCopyTextComponent/ControlManifest.Input.xml) and [Solution.xml](https://github.com/TBag/power-apps-copy-text-to-clipboard/blob/master/CopyTextComponent/CopyTextSolution/Other/Solution.xml) files.
+1. Package and import the component again.
+1. Add the component to your Power App.
 
-> **Notice:** It's recommended to finalize the component info (name, namespace, constructor), and solution type (unmanaged, managed) before adding the PCF component to your PowerApps for the first time, otherwise, it might cause risks in your future upgrades.
+> **Notice:** We recommend to finalize the component info (name, namespace, constructor), and solution type (unmanaged, managed) before adding the PCF component to your Power Apps environment for the first time, otherwise, it might cause issues and risks to future upgrades.
 
-
-## Author
-Todd Baginski @TBag
+## Authors
+- Todd Baginski @TBag
+- Alex Chen @alexchx
