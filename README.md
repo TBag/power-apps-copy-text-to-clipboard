@@ -140,6 +140,7 @@ Follow the steps below to upgrade the PCF component.
 If the upgrade doesn't go smoothly or you never see the **Update code components** dialog you will not see the changes you made in your upgraded component appear.  If this happens, consider the following workaround to force the Power App to pick up a new version of the component.
 
 1. Remove all component references from the Power App.
+1. Go to your solution and remove the component from your environment manually if that was deployed by an unmanaged solution.
 1. Uninstall the solution from your environment.
 1. Export the Power App and re-import it to overwrite the current version.
 1. Re-open the Power App, then save and publish it.
@@ -153,3 +154,4 @@ If the upgrade doesn't go smoothly or you never see the **Update code components
 ## Authors
 - Todd Baginski @TBag
 - Alex Chen @alexchx
+- Cathy Cheng @cathyclx
