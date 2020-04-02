@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <manifest>
-  <control namespace="CanvizLLCPCF" constructor="PCFCopyTextComponent" version="1.0.18" display-name-key="PCFCopyTextComponent" description-key="This component includes a textbox with a button next to it.  When you click the button it copies the contents of the textbox to the clipboard." control-type="standard">
+  <control namespace="CanvizLLCPCF" constructor="PCFCopyTextComponent" version="1.0.19" display-name-key="PCFCopyTextComponent" description-key="This component includes a textbox with a button next to it.  When you click the button it copies the contents of the textbox to the clipboard." control-type="standard">
     <!-- property node identifies a specific, configurable piece of data that the control expects from CDS -->
     <type-group name="strings">
       <type>SingleLine.Text</type>
