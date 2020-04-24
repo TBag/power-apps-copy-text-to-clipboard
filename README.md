@@ -14,8 +14,8 @@ Watch a deep dive video about the component [here](https://youtu.be/URQLR8ndsOE)
 This component uses the following library.
 https://www.npmjs.com/package/copy-to-clipboard
 
-## Prebuilt Solution
-Download this solution and import it into your Power Apps environment's Solution Gallery.  Then, you can add the component to your Power Apps.  See the video to learn how and look at the steps below.
+## Installation
+Download the Solution and import it into your Power Apps environment's Solution Gallery.  Then, you can add the component to your Power Apps.  See the video to learn how and look at the steps below.
 
 [CopyTextSolution.zip](https://github.com/TBag/power-apps-copy-text-to-clipboard/blob/master/CopyTextComponent/CopyTextSolution/bin/Debug/CopyTextSolution.zip)
 
