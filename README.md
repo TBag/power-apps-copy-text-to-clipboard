@@ -122,7 +122,7 @@ Download this Power App and import it into your Power Apps environment.  This is
 
     `msbuild`
 
-1. Import the Solution in the Power Apps environment.
+1. [Import the Solution in the Power Apps environment.](https://docs.microsoft.com/en-us/powerapps/maker/common-data-service/import-update-export-solutions)
 
 1. [Enable the Canvas Power Apps Components feature](https://docs.microsoft.com/en-us/powerapps/developer/component-framework/component-framework-for-canvas-apps)
 
