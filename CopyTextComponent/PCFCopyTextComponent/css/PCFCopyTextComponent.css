@@ -17,13 +17,13 @@
 .CanvizLLCPCF\.PCFCopyTextComponent .CopyText_Button_Style {
 	text-decoration: none;
     display: inline-block;
-    font-size: 14px;
+    /*font-size: 14px;*/
     margin: 4px 6px;
     cursor: pointer;
-	color: white;
+	/*color: white;
     border-radius: 0px;
 	background-color: rgb(59, 121, 183);
-    border: none;
+    border: none;*/
     padding: 5px;
     text-align: center;
 }
@@ -34,9 +34,10 @@
 
 .CanvizLLCPCF\.PCFCopyTextComponent .CopyText_Input_Style{
 	box-sizing: border-box;
-	border: 1px solid rgb(0, 18, 107);
+	/*border: 1px solid rgb(0, 18, 107);*/
 	width: 100%;
 	min-width: 50px;
 	resize: none;
 	padding: 5px;
+	margin: 0;
 }

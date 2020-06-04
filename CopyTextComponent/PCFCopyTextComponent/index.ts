@@ -9,10 +9,8 @@ export class PCFCopyTextComponent implements ComponentFramework.StandardControl<
 	// PCF framework delegate which will be assigned to this object which would be called whenever any update happens. 
 	private _notifyOutputChanged: () => void;
 
-	// input element created as part of this control
-	private textInput: HTMLInputElement;
-
-	private textArea: HTMLTextAreaElement;
+	// input/textarea element created as part of this control
+	private textInput: any;
 
 	// button element created as part of this control
 	private button: HTMLButtonElement;
@@ -39,9 +37,6 @@ export class PCFCopyTextComponent implements ComponentFramework.StandardControl<
 	 * @param container If a control is marked control-type='standard', it will receive an empty div element within which it can render its content.
 	 */
 	public init(context: ComponentFramework.Context<IInputs>, notifyOutputChanged: () => void, state: ComponentFramework.Dictionary, container: HTMLDivElement) {
-		// Add control initialization code
-		//copy('This is awesome text copied on ' + Date.now.toString());
-
 		// get root container before child controls are appended
 		this._rootContainer = this.getRootContainer(container)!;
 		
@@ -50,38 +45,56 @@ export class PCFCopyTextComponent implements ComponentFramework.StandardControl<
 
 		// Creating the textInput for the control and setting the relevant values.
 		if (context.parameters.MultiLine.raw) {
-			this.textArea = document.createElement("textarea");
-			this.textArea.maxLength = context.parameters.MaxLength.raw || 500;
-			this.textArea.addEventListener("blur", this.onInputBlur.bind(this));
-			this.textArea.addEventListener("change", this.onInputBlur.bind(this));
-			this.textArea.classList.add("CopyText_Input_Style");
-			this.textArea.readOnly = context.parameters.ReadOnly.raw;
-
-			this._container.appendChild(this.textArea);
+			this.textInput = document.createElement("textarea");
 		}
 		else {
 			this.textInput = document.createElement("input");
 			this.textInput.setAttribute("type", "text");
-			this.textInput.maxLength = context.parameters.MaxLength.raw || 255;
-			this.textInput.addEventListener("blur", this.onInputBlur.bind(this));
-			this.textInput.addEventListener("change", this.onInputBlur.bind(this));
-			this.textInput.classList.add("CopyText_Input_Style");
-			this.textInput.readOnly = context.parameters.ReadOnly.raw;
-
-			this._container.appendChild(this.textInput);
 		}
+		this.textInput.addEventListener("blur", this.onInputBlur.bind(this));
+		this.textInput.addEventListener("change", this.onInputBlur.bind(this));
+		//this.configureInputProperties(this.textInput, context.parameters);
+		this._container.appendChild(this.textInput);
 
+		this._notifyOutputChanged = notifyOutputChanged;
 		this.button = document.createElement("button");
-
 		// Get the localized string from localized string 
 		this.button.innerHTML = context.resources.getString("PCFCopyTextComponent_ButtonLabel");
-
-		this.button.classList.add("CopyText_Button_Style");
-		this._notifyOutputChanged = notifyOutputChanged;
 		this.button.addEventListener("click", this.onButtonClick.bind(this));
-
+		//this.configureButtonProperties(this.button, context.parameters);
 		this._container.appendChild(this.button);
+
 		container.appendChild(this._container);
+	}
+
+	private configureInputProperties(input: any, parameters: IInputs) {
+		input.placeholder = parameters.Placeholder.raw!;
+		input.maxLength = parameters.MaxLength.raw || (input.tagName === 'input' ? 255 : 500);
+		input.readOnly = parameters.ReadOnly.raw;
+
+		input.classList.add("CopyText_Input_Style");
+
+		input.style.color = parameters.InputColor.raw!;
+		input.style.fontSize = parameters.InputFontSize.raw + 'pt';
+		input.style.fontWeight = parameters.InputFontWeight.raw!;
+		input.style.fontFamily = parameters.InputFontFamily.raw!;
+		input.style.borderWidth = parameters.InputBorderThickness.raw + 'px';
+		input.style.borderRadius = parameters.InputBorderRadius.raw + 'px';
+		input.style.borderColor = parameters.InputBorderColor.raw!;
+		input.style.backgroundColor = parameters.InputBackgroundColor.raw!;
+	}
+
+	private configureButtonProperties(button: HTMLButtonElement, parameters: IInputs) {
+		button.classList.add("CopyText_Button_Style");
+		
+		button.style.color = parameters.ButtonColor.raw!;
+		button.style.fontSize = parameters.ButtonFontSize.raw + 'pt';
+		button.style.fontWeight = parameters.ButtonFontWeight.raw!;
+		button.style.fontFamily = parameters.ButtonFontFamily.raw!;
+		button.style.borderWidth = parameters.ButtonBorderThickness.raw + 'px';
+		button.style.borderRadius = parameters.ButtonBorderRadius.raw + 'px';
+		button.style.borderColor = parameters.ButtonBorderColor.raw!;
+		button.style.backgroundColor = parameters.ButtonBackgroundColor.raw!;
 	}
 
 	/**
@@ -98,12 +111,7 @@ export class PCFCopyTextComponent implements ComponentFramework.StandardControl<
 	 * @param event
 	 */
 	private onInputBlur(event: Event): void {
-		if (this.textArea) {
-			this._value = this.textArea.value;
-		}
-		else {
-			this._value = this.textInput.value;
-		}
+		this._value = this.textInput.value;
 		this._notifyOutputChanged();
 	}
 
@@ -130,31 +138,24 @@ export class PCFCopyTextComponent implements ComponentFramework.StandardControl<
 		this._value = context.parameters.Value.raw!;
 		let tempValue = this._value != null ? this._value.toString() : "";
 
-		let classList: DOMTokenList;
-		if (this.textArea) {
-			this.textArea.value = tempValue;
-			classList = this.textArea.classList;
-		}
-		else {
-			this.textInput.value = tempValue;
-			classList = this.textInput.classList;
-		}
+		this.textInput.value = tempValue;
 
 		if (context.parameters.Value.error) {
-			classList.add("CopyText_Input_Error_Style");
+			this.textInput.classList.add("CopyText_Input_Error_Style");
 		}
 		else {
-			classList.remove("CopyText_Input_Error_Style");
+			this.textInput.classList.remove("CopyText_Input_Error_Style");
 		}
 
 		// refresh input size
-		let height = this._rootContainer.clientHeight;
-		if (this.textArea) {
-			this.textArea.style.height = height + "px";
-		}
-		else {
-			this.textInput.style.height = height + "px";
-		}
+		this.textInput.style.height = this._rootContainer.clientHeight + "px";
+
+		// might get the width/height as below in the future
+		//context.accessibility._customControlProperties.parentDefinedControlProps.width
+		//context.accessibility._customControlProperties.parentDefinedControlProps.height
+
+		this.configureInputProperties(this.textInput, context.parameters);
+		this.configureButtonProperties(this.button, context.parameters);
 	}
 
 	/** 
