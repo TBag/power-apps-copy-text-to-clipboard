@@ -50,6 +50,8 @@ export class PCFCopyTextComponent implements ComponentFramework.StandardControl<
 		else {
 			this.textInput = document.createElement("input");
 			this.textInput.setAttribute("type", "text");
+
+			this._container.classList.add('single');
 		}
 		this.textInput.addEventListener("blur", this.onInputBlur.bind(this));
 		this.textInput.addEventListener("change", this.onInputBlur.bind(this));
