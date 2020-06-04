@@ -124,7 +124,7 @@ export class PCFCopyTextComponent implements ComponentFramework.StandardControl<
 		let node : HTMLDivElement | null = container;
 		
 		// lookup the first parent node which has a height set
-		while (node && !node.clientHeight) {
+		while (node && !node.style.height) {
 			node = node.parentNode as HTMLDivElement | null;
 		}
 
@@ -150,7 +150,7 @@ export class PCFCopyTextComponent implements ComponentFramework.StandardControl<
 		}
 
 		// refresh input size
-		this.textInput.style.height = this._rootContainer.clientHeight + "px";
+		this.textInput.style.height = this._rootContainer.style.height;
 
 		// might get the width/height as below in the future
 		//context.accessibility._customControlProperties.parentDefinedControlProps.width
