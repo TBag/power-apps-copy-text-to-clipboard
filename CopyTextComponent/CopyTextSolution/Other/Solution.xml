@@ -8,7 +8,7 @@
       <LocalizedName description="CopyTextSolution" languagecode="1033" />
     </LocalizedNames>
     <Descriptions />
-    <Version>2.23</Version>
+    <Version>2.26</Version>
     <!-- Solution Package Type: Unmanaged(0)/Managed(1)/Both(2)-->
     <Managed>1</Managed>
     <Publisher>
