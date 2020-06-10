@@ -1,42 +1,29 @@
-/*
-	This file is part of the Microsoft PowerApps code samples. 
-	Copyright (C) Microsoft Corporation.  All rights reserved. 
-	This source code is intended only as a supplement to Microsoft Development Tools and/or  
-	on-line documentation.  See these other materials for detailed information regarding  
-	Microsoft code samples. 
-
-	THIS CODE AND INFORMATION ARE PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER  
-	EXPRESSED OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF  
-	MERCHANTABILITY AND/OR FITNESS FOR A PARTICULAR PURPOSE. 
- */
 .CanvizLLCPCF\.PCFCopyTextComponent > div {
 	display: flex;
 	align-items: flex-start;
 }
-
-.CanvizLLCPCF\.PCFCopyTextComponent .CopyText_Button_Style {
-	text-decoration: none;
-    display: inline-block;
-    font-size: 14px;
-    margin: 4px 6px;
-    cursor: pointer;
-	color: white;
-    border-radius: 0px;
-	background-color: rgb(59, 121, 183);
-    border: none;
-    padding: 5px;
-    text-align: center;
+.CanvizLLCPCF\.PCFCopyTextComponent .single {
+	align-items: normal;;
 }
 
-.CanvizLLCPCF\.PCFCopyTextComponent .CopyText_Input_Error_Style{
-	color: red;
-}
-
-.CanvizLLCPCF\.PCFCopyTextComponent .CopyText_Input_Style{
+.CanvizLLCPCF\.PCFCopyTextComponent .CopyText_Input_Style {
 	box-sizing: border-box;
-	border: 1px solid rgb(0, 18, 107);
 	width: 100%;
 	min-width: 50px;
 	resize: none;
-	padding: 5px;
+	padding: 5px 10px;
+	margin: 0;
+}
+.CanvizLLCPCF\.PCFCopyTextComponent .CopyText_Input_Error_Style {
+	color: red;
+}
+
+.CanvizLLCPCF\.PCFCopyTextComponent .CopyText_Button_Style {
+	box-sizing: border-box;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+	text-decoration: none;
+    margin-left: 6px ;
+    padding: 5px 10px;
 }

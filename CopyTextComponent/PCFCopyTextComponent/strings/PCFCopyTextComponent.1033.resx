@@ -161,5 +161,141 @@
     <value>ReadOnly</value>
     <comment>Display text for ReadOnly description</comment>
   </data>
+  <data name="Placeholder_Display_Key" xml:space="preserve">
+    <value>Placeholder</value>
+    <comment>Display text for Placeholder</comment>
+  </data>
+  <data name="Placeholder_Desc_Key" xml:space="preserve">
+    <value>Placeholder</value>
+    <comment>Display text for Placeholder description</comment>
+  </data>
+  <data name="InputColor_Display_Key" xml:space="preserve">
+    <value>InputColor</value>
+    <comment>Display text for InputColor</comment>
+  </data>
+  <data name="InputColor_Desc_Key" xml:space="preserve">
+    <value>InputColor</value>
+    <comment>Display text for InputColor description</comment>
+  </data>
+  <data name="InputFontSize_Display_Key" xml:space="preserve">
+    <value>InputFontSize</value>
+    <comment>Display text for InputFontSize</comment>
+  </data>
+  <data name="InputFontSize_Desc_Key" xml:space="preserve">
+    <value>InputFontSize</value>
+    <comment>Display text for InputFontSize description</comment>
+  </data>
+  <data name="InputFontWeight_Display_Key" xml:space="preserve">
+    <value>InputFontWeight</value>
+    <comment>Display text for InputFontWeight</comment>
+  </data>
+  <data name="InputFontWeight_Desc_Key" xml:space="preserve">
+    <value>InputFontWeight</value>
+    <comment>Display text for InputFontWeight description</comment>
+  </data>
+  <data name="InputFontFamily_Display_Key" xml:space="preserve">
+    <value>InputFontFamily</value>
+    <comment>Display text for InputFontFamily</comment>
+  </data>
+  <data name="InputFontFamily_Desc_Key" xml:space="preserve">
+    <value>InputFontFamily</value>
+    <comment>Display text for InputFontFamily description</comment>
+  </data>
+  <data name="InputBorderThickness_Display_Key" xml:space="preserve">
+    <value>InputBorderThickness</value>
+    <comment>Display text for InputBorderThickness</comment>
+  </data>
+  <data name="InputBorderThickness_Desc_Key" xml:space="preserve">
+    <value>InputBorderThickness</value>
+    <comment>Display text for InputBorderThickness description</comment>
+  </data>
+  <data name="InputBorderRadius_Display_Key" xml:space="preserve">
+    <value>InputBorderRadius</value>
+    <comment>Display text for InputBorderRadius</comment>
+  </data>
+  <data name="InputBorderRadius_Desc_Key" xml:space="preserve">
+    <value>InputBorderRadius</value>
+    <comment>Display text for InputBorderRadius description</comment>
+  </data>
+  <data name="InputBorderColor_Display_Key" xml:space="preserve">
+    <value>InputBorderColor</value>
+    <comment>Display text for InputBorderColor</comment>
+  </data>
+  <data name="InputBorderColor_Desc_Key" xml:space="preserve">
+    <value>InputBorderColor</value>
+    <comment>Display text for InputBorderColor description</comment>
+  </data>
+  <data name="InputBackgroundColor_Display_Key" xml:space="preserve">
+    <value>InputBackgroundColor</value>
+    <comment>Display text for InputBackgroundColor</comment>
+  </data>
+  <data name="InputBackgroundColor_Desc_Key" xml:space="preserve">
+    <value>InputBackgroundColor</value>
+    <comment>Display text for InputBackgroundColor description</comment>
+  </data>
+  <data name="ButtonColor_Display_Key" xml:space="preserve">
+    <value>ButtonColor</value>
+    <comment>Display text for ButtonColor</comment>
+  </data>
+  <data name="ButtonColor_Desc_Key" xml:space="preserve">
+    <value>ButtonColor</value>
+    <comment>Display text for ButtonColor description</comment>
+  </data>
+  <data name="ButtonFontSize_Display_Key" xml:space="preserve">
+    <value>ButtonFontSize</value>
+    <comment>Display text for ButtonFontSize</comment>
+  </data>
+  <data name="ButtonFontSize_Desc_Key" xml:space="preserve">
+    <value>ButtonFontSize</value>
+    <comment>Display text for ButtonFontSize description</comment>
+  </data>
+  <data name="ButtonFontWeight_Display_Key" xml:space="preserve">
+    <value>ButtonFontWeight</value>
+    <comment>Display text for ButtonFontWeight</comment>
+  </data>
+  <data name="ButtonFontWeight_Desc_Key" xml:space="preserve">
+    <value>ButtonFontWeight</value>
+    <comment>Display text for ButtonFontWeight description</comment>
+  </data>
+  <data name="ButtonFontFamily_Display_Key" xml:space="preserve">
+    <value>ButtonFontFamily</value>
+    <comment>Display text for ButtonFontFamily</comment>
+  </data>
+  <data name="ButtonFontFamily_Desc_Key" xml:space="preserve">
+    <value>ButtonFontFamily</value>
+    <comment>Display text for ButtonFontFamily description</comment>
+  </data>
+  <data name="ButtonBorderThickness_Display_Key" xml:space="preserve">
+    <value>ButtonBorderThickness</value>
+    <comment>Display text for ButtonBorderThickness</comment>
+  </data>
+  <data name="ButtonBorderThickness_Desc_Key" xml:space="preserve">
+    <value>ButtonBorderThickness</value>
+    <comment>Display text for ButtonBorderThickness description</comment>
+  </data>
+  <data name="ButtonBorderRadius_Display_Key" xml:space="preserve">
+    <value>ButtonBorderRadius</value>
+    <comment>Display text for ButtonBorderRadius</comment>
+  </data>
+  <data name="ButtonBorderRadius_Desc_Key" xml:space="preserve">
+    <value>ButtonBorderRadius</value>
+    <comment>Display text for ButtonBorderRadius description</comment>
+  </data>
+  <data name="ButtonBorderColor_Display_Key" xml:space="preserve">
+    <value>ButtonBorderColor</value>
+    <comment>Display text for ButtonBorderColor</comment>
+  </data>
+  <data name="ButtonBorderColor_Desc_Key" xml:space="preserve">
+    <value>ButtonBorderColor</value>
+    <comment>Display text for ButtonBorderColor description</comment>
+  </data>
+  <data name="ButtonBackgroundColor_Display_Key" xml:space="preserve">
+    <value>ButtonBackgroundColor</value>
+    <comment>Display text for ButtonBackgroundColor</comment>
+  </data>
+  <data name="ButtonBackgroundColor_Desc_Key" xml:space="preserve">
+    <value>ButtonBackgroundColor</value>
+    <comment>Display text for ButtonBackgroundColor description</comment>
+  </data>
 
 </root>
