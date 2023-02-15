@@ -161,16 +161,13 @@ export class PCFCopyTextComponent implements ComponentFramework.StandardControl<
 		let tempValue = this._value != null ? this._value.toString() : "";
 
 		this.textInput.value = tempValue;
-		
-		if (context.parameters.Value) {
+
+		if (context.parameters.Value.error) {
 			this.textInput.classList.add("CopyText_Input_Error_Style");
-			console.dir(context.parameters.Value.error);
 		}
-		
 		else {
 			this.textInput.classList.remove("CopyText_Input_Error_Style");
 		}
-
 
 		// refresh input size
 		this.textInput.style.height = this._rootContainer.style.height;
