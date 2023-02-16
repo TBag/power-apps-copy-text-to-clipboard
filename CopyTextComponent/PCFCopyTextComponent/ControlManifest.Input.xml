@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <manifest>
-  <control namespace="CanvizLLCPCF" constructor="PCFCopyTextComponent" version="1.0.30" display-name-key="PCFCopyTextComponent" description-key="This component includes a textbox with a button next to it.  When you click the button it copies the contents of the textbox to the clipboard." control-type="standard">
+  <control namespace="CanvizLLCPCF" constructor="PCFCopyTextComponent" version="1.0.33" display-name-key="PCFCopyTextComponent" description-key="This component includes a textbox with a button next to it.  When you click the button it copies the contents of the textbox to the clipboard." control-type="standard">
     <!-- property node identifies a specific, configurable piece of data that the control expects from CDS -->
     <type-group name="strings">
       <type>SingleLine.Text</type>
       <type>Multiple</type>
     </type-group>
     <property name="Value" display-name-key="Value_Display_Key" description-key="Value_Desc_Key" of-type="SingleLine.Text" usage="bound" required="false" default-value=""/>
+    <property name="Copy" display-name-key="Copy" description-key="Copy again" of-type="TwoOptions" usage="input" required="false" default-value="false"/>
     <property name="MultiLine" display-name-key="MultiLine_Display_Key" description-key="MultiLine_Desc_Key" of-type="TwoOptions" usage="input" required="true" default-value="false"/>
     <property name="ReadOnly" display-name-key="ReadOnly_Display_Key" description-key="ReadOnly_Desc_Key" of-type="TwoOptions" usage="input" required="true" default-value="false"/>
+    <property name="ShowTextInput" display-name-key="ShowTextInput" description-key="ShowTextInput_Desc_Key" of-type="TwoOptions" usage="input" required="true" default-value="true"/>
     <property name="MaxLength" display-name-key="MaxLength_Display_Key" description-key="MaxLength_Desc_Key" of-type="Whole.None" usage="input" required="false" default-value="255"/>
     <property name="Placeholder" display-name-key="Placeholder_Display_Key" description-key="Placeholder_Desc_Key" of-type="SingleLine.Text" usage="input" required="false" default-value=""/>
     <property name="InputColor" display-name-key="InputColor_Display_Key" description-key="InputColor_Desc_Key" of-type="SingleLine.Text" usage="input" required="false" default-value="RGBA(0,0,0,1)"/>
