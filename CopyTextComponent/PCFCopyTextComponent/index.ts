@@ -67,6 +67,12 @@ export class PCFCopyTextComponent implements ComponentFramework.StandardControl<
 		this._container.appendChild(this.button);
 
 		container.appendChild(this._container);
+
+		//Deliberately Set ShowTextInput Property to true
+		context.parameters.ShowTextInput.raw = true;
+
+		//console.log("Init function just executed")
+
 	}
 
 	private configureInputProperties(input: any, parameters: IInputs) {
@@ -75,6 +81,19 @@ export class PCFCopyTextComponent implements ComponentFramework.StandardControl<
 		input.readOnly = parameters.ReadOnly.raw;
 
 		input.classList.add("CopyText_Input_Style");
+
+		
+		//console.log(`Property Hide Text input - ${parameters.ShowTextInput.raw}`);
+
+		if(parameters.ShowTextInput.raw) {
+			this.textInput.classList.add("CopyText_Input_Show");
+			this.textInput.classList.remove("CopyText_Input_Hide");
+		} else {
+			this.textInput.classList.add("CopyText_Input_Hide");
+			this.textInput.classList.remove("CopyText_Input_Show");
+		}
+		
+		//console.dir(this.textInput.classList);
 
 		input.style.color = parameters.InputColor.raw!;
 		input.style.fontSize = parameters.InputFontSize.raw + 'pt';
@@ -106,7 +125,7 @@ export class PCFCopyTextComponent implements ComponentFramework.StandardControl<
 	private onButtonClick(event: Event): void {
 		this._notifyOutputChanged();
 		copy(this._value.toString());
-	}
+	} 
 
 	/**
 	 * Input Blur Event handler for the input created as part of this control
@@ -117,7 +136,7 @@ export class PCFCopyTextComponent implements ComponentFramework.StandardControl<
 		this._notifyOutputChanged();
 	}
 
-	/**
+	/** 
 	 * Get root container which has height set before the child nodes are appended
 	*/
 	private getRootContainer(container: HTMLDivElement) {
@@ -137,6 +156,7 @@ export class PCFCopyTextComponent implements ComponentFramework.StandardControl<
 	 */
 	public updateView(context: ComponentFramework.Context<IInputs>): void {
 		// Add code to update control view
+		
 		this._value = context.parameters.Value.raw!;
 		let tempValue = this._value != null ? this._value.toString() : "";
 
@@ -158,6 +178,7 @@ export class PCFCopyTextComponent implements ComponentFramework.StandardControl<
 
 		this.configureInputProperties(this.textInput, context.parameters);
 		this.configureButtonProperties(this.button, context.parameters);
+		//console.log("UpdateView function just executed!")
 	}
 
 	/** 
@@ -169,6 +190,7 @@ export class PCFCopyTextComponent implements ComponentFramework.StandardControl<
 		let result: IOutputs = {
 			Value: this._value
 		};
+		//console.log("getOutputs function just executed")
 		return result;
 	}
 
